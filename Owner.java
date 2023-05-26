@@ -47,7 +47,7 @@ class Owner {
         return purchasePlants;
     }
     public void purchasePlants(List<String> plants) {
-        System.out.println("Власниця " + name + " робить закупівлю рослин на наступну пору року:");
+       System.out.println("Власниця " + name + " робить закупівлю рослин на наступну пору року:");
 
         for (String plant : plants) {
             System.out.println("- " + plant);
